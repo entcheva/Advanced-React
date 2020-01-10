@@ -1,0 +1,6 @@
+endpoint: https://us1.prisma.sh/christina-entcheva/sick-fits-2/dev
+datamodel: datamodel.prisma
+
+generate:
+  - generator: javascript-client
+    output: ./generated/prisma-client/
